@@ -1,0 +1,32 @@
+[
+  {
+    "idIngrediente": 1,
+    "nombreIngrediente": "Manzanas",
+    "cantidadIngrediente": 4.0,
+    "unidadMedida": "unidades"
+  },
+  {
+    "idIngrediente": 2,
+    "nombreIngrediente": "Azucar",
+    "cantidadIngrediente": 150.0,
+    "unidadMedida": "gramos"
+  },
+  {
+    "idIngrediente": 3,
+    "nombreIngrediente": "Harina",
+    "cantidadIngrediente": 200.0,
+    "unidadMedida": "gramos"
+  },
+  {
+    "idIngrediente": 4,
+    "nombreIngrediente": "Mantequilla",
+    "cantidadIngrediente": 100.0,
+    "unidadMedida": "gramos"
+  },
+  {
+    "idIngrediente": 3,
+    "nombreIngrediente": "Harina",
+    "cantidadIngrediente": 150.0,
+    "unidadMedida": "gramos"
+  }
+]
