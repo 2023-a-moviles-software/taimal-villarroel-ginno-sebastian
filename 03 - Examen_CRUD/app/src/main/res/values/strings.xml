@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Examen_CRUD</string>
+    <string name="welcome_title">Recipe App</string>
+    <string name="welcome_description">At your fingertips all your recipes</string>
+    <string name="welcome_button">Get Started</string>
+    <!-- CRUD BUTTONS -->
+    <string name="create_button">Add</string>
+    <string name="read_button">Find All</string>
+    <string name="update_button">Update</string>
+    <string name="delete_button">Delete</string>
+    <!-- Recipe Strings -->
+    <string name="recipeTitle">Recipes</string>
+    <!-- Ingredient Strings -->
+    <string name="ingredientTitle">Ingredients</string>
+    <string name="editRecipeTitle">Edit Recipe</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_description">Recipe Description</string>
+    <string name="enter_recipe_name">Enter recipe name</string>
+    <string name="enter_recipe_description">Enter recipe description</string>
+    <string name="preparation_time_minutes">Preparation Time (minutes)</string>
+    <string name="enter_preparation_time">Enter preparation time</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="servings">Servings</string>
+    <string name="enter_servings">Enter servings</string>
+    <string name="editIngredientTitle">Edit Ingredient</string>
+    <string name="ingredient_name">Ingrediente Name</string>
+    <string name="enter_ingredient_name">Enter ingredient name</string>
+    <string name="ingredient_quantity">Ingredient Quantity</string>
+    <string name="enter_ingredient_quantity">Enter Ingredient Quantity</string>
+    <string name="measurement_unit">Measurement Unit</string>
+    <string name="enter_measurement_unit">Enter Measurement Unit</string>
+</resources>
