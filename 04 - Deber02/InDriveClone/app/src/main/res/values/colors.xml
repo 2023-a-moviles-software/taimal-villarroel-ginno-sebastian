@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="generalStatusBarColor">#5e5e5e</color>
+    <!-- Text -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secundary">#F5FAFB</color>
+    <color name="text_tertiary">#A46765</color>
+    <color name="text_4">#5e5e5e</color>
+    <!-- Background -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secundary">#C4C5C7</color>
+    <!-- Button -->
+    <color name="button_primary">#88DA09</color>
+</resources>

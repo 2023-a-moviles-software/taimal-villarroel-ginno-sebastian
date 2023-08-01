@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InDriveClone</string>
+    <string name="titleCity">Ciudad</string>
+    <string name="titleAccount">Mi Cuenta</string>
+    <string name="titleCityToCity">Ciudad a ciudad</string>
+    <string name="titleFreight">Flete</string>
+    <string name="titleSecurity">Seguridad y Proteccion</string>
+    <string name="titleSettings">Configuraciones</string>
+    <string name="titleHelp">Ayuda</string>
+    <string name="titleSupport">Soporte</string>
+    <string name="titleRegister">Registro en Linea</string>
+    <string name="titleButtonHome">Modo Pasajero</string>
+    <string name="hamburguesa_icon_description">Icono Hamburguesa</string>
+    <string name="encabezado">encabezado</string>
+    <string name="solicitudes">Solicitudes</string>
+    <string name="mis_ingresos">Mis ingresos</string>
+    <string name="clasificacion">Clasificacion</string>
+    <string name="pago">Pago</string>
+    <string name="mis_solicitudes">Mis Solicitudes</string>
+</resources>

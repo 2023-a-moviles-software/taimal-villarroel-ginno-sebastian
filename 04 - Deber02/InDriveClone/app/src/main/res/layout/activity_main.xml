@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:backgroundTint="@color/background_primary"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Usuario -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Columna 1: Imagen de usuario circular -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user" />
+
+        <!-- Columna 2: Información de usuario -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:orientation="vertical">
+
+            <!-- Nombre de usuario -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Ginno"
+                android:textColor="@color/text_primary"
+                android:textSize="25sp" />
+
+            <!-- Puntaje y Cantidad de viajes -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="4,9 (333)"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp" />
+
+            <!-- Modelo del Carro -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Kia Rio"
+                android:textColor="@color/text_primary"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Línea horizontal -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Ciudad -->
+    <LinearLayout
+        android:id="@+id/titleCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/a_coche" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleCity"
+            android:textColor="@color/text_primary"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Mi Cuenta -->
+    <LinearLayout
+        android:id="@+id/titleAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/b_cuenta" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleAccount"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Ciudad a ciudad -->
+    <LinearLayout
+        android:id="@+id/titleCityToCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/c_mundo" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleCityToCity"
+            android:textColor="@color/text_primary"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Flete -->
+    <LinearLayout
+        android:id="@+id/titleFreight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/d_flete" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleFreight"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Seguridad y Proteccion -->
+    <LinearLayout
+        android:id="@+id/titleSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/e_seguridad" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleSecurity"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Configuraciones -->
+    <LinearLayout
+        android:id="@+id/titleSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/f_configuraciones" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleSettings"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Ayuda -->
+    <LinearLayout
+        android:id="@+id/titleHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/g_ayuda" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleHelp"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Soporte -->
+    <LinearLayout
+        android:id="@+id/titleSupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/h_soporte" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleSupport"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Registro en Linea -->
+    <LinearLayout
+        android:id="@+id/titleRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:baselineAligned="false"
+        android:gravity="left"
+        android:orientation="horizontal">
+        <!-- Icono -->
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="20dp"
+            android:importantForAccessibility="no"
+            android:src="@drawable/i_registro" />
+        <!-- Texto -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titleRegister"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <!-- Línea horizontal -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginVertical="5dp"
+        android:backgroundTint="@color/button_primary"
+        android:text="@string/titleButtonHome"
+        android:textColor="@color/text_primary"
+        android:textSize="25sp" />
+</LinearLayout>

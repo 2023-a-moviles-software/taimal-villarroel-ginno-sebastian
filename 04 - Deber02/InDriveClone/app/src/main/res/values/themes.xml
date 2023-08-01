@@ -1,0 +1,15 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InDriveClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.InDriveClone" parent="Base.Theme.InDriveClone">
+        <!-- Personaliza el tema en tonos oscuros -->
+        <item name="android:windowBackground">@color/background_primary</item>
+        <!-- Status bar color -->
+        <item name="colorPrimary">@color/generalStatusBarColor</item>
+        <!-- Otros atributos de estilo personalizados -->
+    </style>
+</resources>
