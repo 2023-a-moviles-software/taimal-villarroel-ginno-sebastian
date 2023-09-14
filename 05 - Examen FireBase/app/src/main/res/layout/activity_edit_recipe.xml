@@ -1,0 +1,108 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="@string/editRecipeTitle"
+            android:textColor="@color/textPrimary"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recipe_name"
+            android:textColor="@color/textPrimary" />
+
+        <EditText
+            android:id="@+id/EditRecipe_etRecipeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_recipe_name"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/recipe_description"
+            android:textColor="@color/textPrimary" />
+
+        <EditText
+            android:id="@+id/EditRecipe_etRecipeDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_recipe_description"
+            android:inputType="textMultiLine"
+            android:lines="4" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/preparation_time_minutes"
+            android:textColor="@color/textPrimary" />
+
+        <EditText
+            android:id="@+id/EditRecipe_etPreparationTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_preparation_time"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/difficulty"
+            android:textColor="@color/textPrimary" />
+
+        <EditText
+            android:id="@+id/EditRecipe_etDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_servings"
+            android:inputType="text"
+            android:maxLines="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/servings"
+            android:textColor="@color/textPrimary" />
+
+        <EditText
+            android:id="@+id/EditRecipe_etServings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/enter_servings"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/EditRecipe_btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/buttonDefault"
+            android:text="@string/update_button"
+            android:textColor="@color/textSecondary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

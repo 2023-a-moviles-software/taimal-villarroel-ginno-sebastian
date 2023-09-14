@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Style General -->
+    <color name="generalBackgroundPrimary">#211D1D</color>
+    <color name="generalBackgroundSecundary">#282424</color>
+    <color name="generalStatusBarColor">#5e5e5e</color>
+    <!-- Text -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#5e5e5e</color>
+    <!-- Button -->
+    <color name="buttonDefault">#DABFA7</color>
+    <color name="buttonImportant">#FFB267</color>
+</resources>

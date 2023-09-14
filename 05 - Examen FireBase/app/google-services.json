@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "939774820510",
+    "project_id": "recipe-ingredient-crud",
+    "storage_bucket": "recipe-ingredient-crud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939774820510:android:27f1490112ea947111bb8f",
+        "android_client_info": {
+          "package_name": "com.example.examen_crud"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoVbM6M-kfwCIIiLJh1c4IhcyK7nFppLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
